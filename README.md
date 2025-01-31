@@ -15,15 +15,19 @@ Interactive Streamlit application for solving advanced engineering mathematics p
 cd C:\Users\[USERNAME]\Downloads\Code
 
 ### Create a virtual environment
+```bash
 python -m venv venv
 
 ### Activate the virtual environment
+```bash
 .\venv\Scripts\Activate.ps1
 
 ### Install Streamlit and other dependencies
+```bash
 pip install streamlit plotly pandas numpy
 
 ### Run your Streamlit app
+```bash
 streamlit run index.py
 
 ## Installation
